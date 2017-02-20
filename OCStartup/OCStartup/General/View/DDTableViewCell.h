@@ -10,4 +10,10 @@
 
 @interface DDTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) id cellDataObj;
+
+// override for subclass
+- (void)updateUI;
++ (CGFloat)cellHeightForCellDataObj:(id)cellDataObj;
+
 @end

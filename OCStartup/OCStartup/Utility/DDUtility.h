@@ -11,5 +11,6 @@
 @interface DDUtility : NSObject
 
 + (instancetype)sharedInstance;
+- (void)appInitSetup;
 
 @end

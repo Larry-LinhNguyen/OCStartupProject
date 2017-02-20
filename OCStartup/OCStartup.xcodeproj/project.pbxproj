@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB90142A1E5A96D900C2615C /* DDPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014291E5A96D900C2615C /* DDPageManager.m */; };
+		EB90142B1E5A96D900C2615C /* DDPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014291E5A96D900C2615C /* DDPageManager.m */; };
+		EB90142E1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90142D1E5A98AD00C2615C /* DDPageMetaInfo.m */; };
+		EB90142F1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90142D1E5A98AD00C2615C /* DDPageMetaInfo.m */; };
+		EB9014321E5A98BC00C2615C /* DDPageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014311E5A98BC00C2615C /* DDPageMap.m */; };
+		EB9014331E5A98BC00C2615C /* DDPageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014311E5A98BC00C2615C /* DDPageMap.m */; };
+		EB9014361E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */; };
+		EB9014371E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */; };
 		EBD191CD1E56CC7600420B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CC1E56CC7600420B35 /* main.m */; };
 		EBD191D01E56CC7600420B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CF1E56CC7600420B35 /* AppDelegate.m */; };
 		EBD191D31E56CC7600420B35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191D21E56CC7600420B35 /* ViewController.m */; };
@@ -45,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB9014281E5A96D900C2615C /* DDPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageManager.h; sourceTree = "<group>"; };
+		EB9014291E5A96D900C2615C /* DDPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageManager.m; sourceTree = "<group>"; };
+		EB90142C1E5A98AD00C2615C /* DDPageMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageMetaInfo.h; sourceTree = "<group>"; };
+		EB90142D1E5A98AD00C2615C /* DDPageMetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageMetaInfo.m; sourceTree = "<group>"; };
+		EB9014301E5A98BC00C2615C /* DDPageMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageMap.h; sourceTree = "<group>"; };
+		EB9014311E5A98BC00C2615C /* DDPageMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageMap.m; sourceTree = "<group>"; };
+		EB9014341E5A99E200C2615C /* NSDictionary+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ddframework.h"; sourceTree = "<group>"; };
+		EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ddframework.m"; sourceTree = "<group>"; };
+		EB9014381E5A9C5400C2615C /* DDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMacros.h; sourceTree = "<group>"; };
 		EBD191C81E56CC7600420B35 /* OCStartup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStartup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD191CC1E56CC7600420B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBD191CE1E56CC7600420B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -245,6 +262,8 @@
 		EBD192041E56D60700420B35 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				EB9014341E5A99E200C2615C /* NSDictionary+ddframework.h */,
+				EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -262,6 +281,7 @@
 				EBD192311E56DBEB00420B35 /* DDGlobal.h */,
 				EBD192331E56DD7600420B35 /* DDConsts.h */,
 				EBD192341E56DD9000420B35 /* DDDefines.h */,
+				EB9014381E5A9C5400C2615C /* DDMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -269,6 +289,12 @@
 		EBD192071E56D60700420B35 /* PageManager */ = {
 			isa = PBXGroup;
 			children = (
+				EB9014281E5A96D900C2615C /* DDPageManager.h */,
+				EB9014291E5A96D900C2615C /* DDPageManager.m */,
+				EB90142C1E5A98AD00C2615C /* DDPageMetaInfo.h */,
+				EB90142D1E5A98AD00C2615C /* DDPageMetaInfo.m */,
+				EB9014301E5A98BC00C2615C /* DDPageMap.h */,
+				EB9014311E5A98BC00C2615C /* DDPageMap.m */,
 			);
 			path = PageManager;
 			sourceTree = "<group>";
@@ -421,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB90142A1E5A96D900C2615C /* DDPageManager.m in Sources */,
 				EBD192271E56D98200420B35 /* DDBaseController.m in Sources */,
 				EBD1921C1E56D90400420B35 /* DDNetwork.m in Sources */,
 				EBD192101E56D84200420B35 /* DDUtility.m in Sources */,
@@ -429,8 +456,11 @@
 				EBD1922F1E56DA1100420B35 /* DDWebViewController.m in Sources */,
 				EBD192181E56D8C600420B35 /* DDBaseModel.m in Sources */,
 				EBD191D01E56CC7600420B35 /* AppDelegate.m in Sources */,
+				EB9014321E5A98BC00C2615C /* DDPageMap.m in Sources */,
+				EB90142E1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
 				EBD191CD1E56CC7600420B35 /* main.m in Sources */,
 				EBD1920C1E56D82800420B35 /* Aspects.m in Sources */,
+				EB9014361E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */,
 				EBD1922B1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
 				EBD192201E56D94200420B35 /* DDHttpManager.m in Sources */,
 			);
@@ -446,10 +476,14 @@
 				EBD1921D1E56D90400420B35 /* DDNetwork.m in Sources */,
 				EBD192211E56D94200420B35 /* DDHttpManager.m in Sources */,
 				EBD192281E56D98200420B35 /* DDBaseController.m in Sources */,
+				EB90142B1E5A96D900C2615C /* DDPageManager.m in Sources */,
+				EB9014331E5A98BC00C2615C /* DDPageMap.m in Sources */,
 				EBD192191E56D8C600420B35 /* DDBaseModel.m in Sources */,
 				EBD192111E56D84200420B35 /* DDUtility.m in Sources */,
 				EBD192151E56D8B700420B35 /* DDDataManager.m in Sources */,
 				EBD1922C1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
+				EB90142F1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
+				EB9014371E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +678,7 @@
 				EBD191EC1E56CC7600420B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBD191ED1E56CC7600420B35 /* Build configuration list for PBXNativeTarget "OCStartupTests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +687,7 @@
 				EBD191EF1E56CC7600420B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

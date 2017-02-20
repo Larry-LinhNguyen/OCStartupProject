@@ -7,6 +7,7 @@
 //
 
 #import "DDUtility.h"
+#import "DDPageManager.h"
 
 @implementation DDUtility
 
@@ -17,6 +18,13 @@
         _s_instance = [self new];
     });
     return _s_instance;
+}
+
+- (void)appInitSetup {
+    // setup page mapping
+    [[DDPageManager sharedManager] setupPageMapping];
+    
+    // setup hooks
 }
 
 @end
