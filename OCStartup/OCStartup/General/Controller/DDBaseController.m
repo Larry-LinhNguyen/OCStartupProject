@@ -8,7 +8,7 @@
 
 #import "DDBaseController.h"
 #import "DDGlobal.h"
-#import "DDNetwork.h"
+#import "DDNetworkManager.h"
 
 @interface DDBaseController ()
 
@@ -67,8 +67,7 @@
 }
 
 - (void)cancelRequestWhenDisappear {
-    // todo :
-    [[DDNetwork sharedInstance] cancelRequestWithRequestObject:self.currentPageRequestObj];
+    [[DDNetworkManager sharedManager] cancelRequestWithRequestObject:self.currentPageRequestObj];
 }
 
 @end

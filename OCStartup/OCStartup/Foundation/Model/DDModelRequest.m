@@ -7,8 +7,7 @@
 //
 
 #import "DDModelRequest.h"
-#import "DDNetwork.h"
-#import "DDHttpManager.h"
+#import "DDNetworkManager.h"
 #import "NSURLSessionTask+ddframework.h"
 
 @implementation DDModelRequest {
@@ -18,9 +17,9 @@
 - (DDModelRequest *)get {
     _httpMethod = _cmd;
     
-    if ([DDNetwork hasNetwork]) {
+    if ([DDNetworkManager hasNetwork]) {
         _isFired = YES;
-        self.sessionTask = [[DDHttpManager sharedManager] getRequestWithParams:self.params apiURl:self.apiUrlString completeHandler:self.uiCallback successAFCallback:^(id operationObj, id responseObject) {
+        self.sessionTask = [[DDNetworkManager sharedManager] getRequestWithParams:self.params apiURl:self.apiUrlString completeHandler:self.uiCallback successAFCallback:^(id operationObj, id responseObject) {
             if ([operationObj isKindOfClass:[NSURLSessionTask class]]) {
                 DDModelRequest *req = [(NSURLSessionTask *)operationObj getModelRequest];
                 if (req.successCallback) {
@@ -45,9 +44,9 @@
 - (DDModelRequest *)post {
     _httpMethod = _cmd;
     
-    if ([DDNetwork hasNetwork]) {
+    if ([DDNetworkManager hasNetwork]) {
         _isFired = YES;
-        self.sessionTask = [[DDHttpManager sharedManager] postRequestWithParams:self.params apiURl:self.apiUrlString completeHandler:self.uiCallback successAFCallback:^(id operationObj, id responseObject) {
+        self.sessionTask = [[DDNetworkManager sharedManager] postRequestWithParams:self.params apiURl:self.apiUrlString completeHandler:self.uiCallback successAFCallback:^(id operationObj, id responseObject) {
             if ([operationObj isKindOfClass:[NSURLSessionTask class]]) {
                 DDModelRequest *req = [(NSURLSessionTask *)operationObj getModelRequest];
                 if (req.successCallback) {

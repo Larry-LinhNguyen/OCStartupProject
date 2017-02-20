@@ -1,5 +1,5 @@
 //
-//  DDHttpManager.h
+//  DDNetworkManager.h
 //  OCStartup
 //
 //  Created by Yanchen Wang on 17/02/2017.
@@ -9,9 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "DDDefines.h"
 
-@interface DDHttpManager : NSObject
+@interface DDNetworkManager : NSObject
+
+@property (readonly) BOOL isNetworkAviliable;
 
 + (instancetype)sharedManager;
+
++ (BOOL)hasNetwork;
+- (void)startNetworkAviliableNotifier;
+
+- (void)cancelRequestWithRequestObject:(id)reqObj;
 
 // http methods
 - (NSURLSessionTask *)getRequestWithParams:(NSDictionary *)params
