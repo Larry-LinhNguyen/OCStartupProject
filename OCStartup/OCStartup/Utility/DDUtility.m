@@ -27,4 +27,12 @@
     // setup hooks
 }
 
++ (NSString *)documentDirString {
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+}
+
++ (NSString *)appVersionString {
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
 @end

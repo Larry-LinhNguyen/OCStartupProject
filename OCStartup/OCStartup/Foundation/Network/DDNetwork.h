@@ -10,7 +10,13 @@
 
 @interface DDNetwork : NSObject
 
+@property (readonly) BOOL isNetworkAviliable;
+
 + (instancetype)sharedInstance;
+
++ (BOOL)hasNetwork;
+- (void)startNetworkAviliableNotifier;
+
 - (void)cancelRequestWithRequestObject:(id)reqObj;
 
 @end

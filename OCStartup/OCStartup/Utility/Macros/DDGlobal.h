@@ -10,6 +10,7 @@
 #define DDGlobal_h
 
 #import "DDMacros.h"
+#import "DDDefines.h"
 
 // categories
 #import "NSAttributedString+ddframework.h"

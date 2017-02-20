@@ -13,4 +13,10 @@
 + (instancetype)sharedInstance;
 - (void)appInitSetup;
 
+/// 系统doc目录
++ (NSString *)documentDirString;
+
+/// app version info
++ (NSString *)appVersionString;
+
 @end

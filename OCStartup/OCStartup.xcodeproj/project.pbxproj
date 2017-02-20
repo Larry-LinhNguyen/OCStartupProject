@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF932A291D811DF8CDA5723A /* libPods-OCStartup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F4BDD8F45C39919099C9F6 /* libPods-OCStartup.a */; };
 		EB90142A1E5A96D900C2615C /* DDPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014291E5A96D900C2615C /* DDPageManager.m */; };
 		EB90142B1E5A96D900C2615C /* DDPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014291E5A96D900C2615C /* DDPageManager.m */; };
 		EB90142E1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90142D1E5A98AD00C2615C /* DDPageMetaInfo.m */; };
@@ -27,6 +28,12 @@
 		EB9014511E5AB7FC00C2615C /* NSString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */; };
 		EB9014541E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */; };
 		EB9014551E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */; };
+		EB9014581E5ABAC600C2615C /* NSURLSessionTask+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014571E5ABAC600C2615C /* NSURLSessionTask+ddframework.m */; };
+		EB9014591E5ABAC600C2615C /* NSURLSessionTask+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014571E5ABAC600C2615C /* NSURLSessionTask+ddframework.m */; };
+		EB90145C1E5ABD9B00C2615C /* DDModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90145B1E5ABD9B00C2615C /* DDModelRequest.m */; };
+		EB90145D1E5ABD9B00C2615C /* DDModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90145B1E5ABD9B00C2615C /* DDModelRequest.m */; };
+		EB9014601E5ABDA900C2615C /* DDModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90145F1E5ABDA900C2615C /* DDModelResponse.m */; };
+		EB9014611E5ABDA900C2615C /* DDModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90145F1E5ABDA900C2615C /* DDModelResponse.m */; };
 		EBD191CD1E56CC7600420B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CC1E56CC7600420B35 /* main.m */; };
 		EBD191D01E56CC7600420B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CF1E56CC7600420B35 /* AppDelegate.m */; };
 		EBD191D31E56CC7600420B35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191D21E56CC7600420B35 /* ViewController.m */; };
@@ -65,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085637D74BDA388A13328989 /* Pods-OCStartup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStartup.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCStartup/Pods-OCStartup.release.xcconfig"; sourceTree = "<group>"; };
+		BB7BDAD7DA2F506EDB2FD725 /* Pods-OCStartup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCStartup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCStartup/Pods-OCStartup.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F4BDD8F45C39919099C9F6 /* libPods-OCStartup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCStartup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9014281E5A96D900C2615C /* DDPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageManager.h; sourceTree = "<group>"; };
 		EB9014291E5A96D900C2615C /* DDPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageManager.m; sourceTree = "<group>"; };
 		EB90142C1E5A98AD00C2615C /* DDPageMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageMetaInfo.h; sourceTree = "<group>"; };
@@ -86,6 +96,12 @@
 		EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ddframework.m"; sourceTree = "<group>"; };
 		EB9014521E5AB8D800C2615C /* NSAttributedString+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ddframework.h"; sourceTree = "<group>"; };
 		EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ddframework.m"; sourceTree = "<group>"; };
+		EB9014561E5ABAC600C2615C /* NSURLSessionTask+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+ddframework.h"; sourceTree = "<group>"; };
+		EB9014571E5ABAC600C2615C /* NSURLSessionTask+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+ddframework.m"; sourceTree = "<group>"; };
+		EB90145A1E5ABD9B00C2615C /* DDModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDModelRequest.h; sourceTree = "<group>"; };
+		EB90145B1E5ABD9B00C2615C /* DDModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDModelRequest.m; sourceTree = "<group>"; };
+		EB90145E1E5ABDA900C2615C /* DDModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDModelResponse.h; sourceTree = "<group>"; };
+		EB90145F1E5ABDA900C2615C /* DDModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDModelResponse.m; sourceTree = "<group>"; };
 		EBD191C81E56CC7600420B35 /* OCStartup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStartup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD191CC1E56CC7600420B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBD191CE1E56CC7600420B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF932A291D811DF8CDA5723A /* libPods-OCStartup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +158,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7FDD4E3D01999FD0C1E61E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F4BDD8F45C39919099C9F6 /* libPods-OCStartup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95381725CEF3EAE6FDAF5731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BDAD7DA2F506EDB2FD725 /* Pods-OCStartup.debug.xcconfig */,
+				085637D74BDA388A13328989 /* Pods-OCStartup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EBD191BF1E56CC7600420B35 = {
 			isa = PBXGroup;
 			children = (
 				EBD191CA1E56CC7600420B35 /* OCStartup */,
 				EBD191E41E56CC7600420B35 /* OCStartupTests */,
 				EBD191C91E56CC7600420B35 /* Products */,
+				95381725CEF3EAE6FDAF5731 /* Pods */,
+				5E7FDD4E3D01999FD0C1E61E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +274,10 @@
 			children = (
 				EBD192161E56D8C600420B35 /* DDBaseModel.h */,
 				EBD192171E56D8C600420B35 /* DDBaseModel.m */,
+				EB90145A1E5ABD9B00C2615C /* DDModelRequest.h */,
+				EB90145B1E5ABD9B00C2615C /* DDModelRequest.m */,
+				EB90145E1E5ABDA900C2615C /* DDModelResponse.h */,
+				EB90145F1E5ABDA900C2615C /* DDModelResponse.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,6 +289,8 @@
 				EBD1921B1E56D90400420B35 /* DDNetwork.m */,
 				EBD1921E1E56D94200420B35 /* DDHttpManager.h */,
 				EBD1921F1E56D94200420B35 /* DDHttpManager.m */,
+				EB9014561E5ABAC600C2615C /* NSURLSessionTask+ddframework.h */,
+				EB9014571E5ABAC600C2615C /* NSURLSessionTask+ddframework.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -386,9 +428,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBD191EA1E56CC7600420B35 /* Build configuration list for PBXNativeTarget "OCStartup" */;
 			buildPhases = (
+				1BF38AAC31F158282D295039 /* [CP] Check Pods Manifest.lock */,
 				EBD191C41E56CC7600420B35 /* Sources */,
 				EBD191C51E56CC7600420B35 /* Frameworks */,
 				EBD191C61E56CC7600420B35 /* Resources */,
+				159B30EEA6D571E645EDE3C8 /* [CP] Embed Pods Frameworks */,
+				D822332E1182238810772599 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -478,6 +523,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		159B30EEA6D571E645EDE3C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCStartup/Pods-OCStartup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BF38AAC31F158282D295039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D822332E1182238810772599 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCStartup/Pods-OCStartup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBD191C41E56CC7600420B35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -488,6 +581,7 @@
 				EBD192271E56D98200420B35 /* DDBaseController.m in Sources */,
 				EBD1921C1E56D90400420B35 /* DDNetwork.m in Sources */,
 				EB9014441E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */,
+				EB90145C1E5ABD9B00C2615C /* DDModelRequest.m in Sources */,
 				EBD192101E56D84200420B35 /* DDUtility.m in Sources */,
 				EBD192141E56D8B700420B35 /* DDDataManager.m in Sources */,
 				EB9014501E5AB7FC00C2615C /* NSString+ddframework.m in Sources */,
@@ -499,6 +593,8 @@
 				EB90142E1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
 				EBD191CD1E56CC7600420B35 /* main.m in Sources */,
 				EBD1920C1E56D82800420B35 /* Aspects.m in Sources */,
+				EB9014581E5ABAC600C2615C /* NSURLSessionTask+ddframework.m in Sources */,
+				EB9014601E5ABDA900C2615C /* DDModelResponse.m in Sources */,
 				EB9014481E5AB67200C2615C /* UIControl+ddframework.m in Sources */,
 				EB90143C1E5AB38B00C2615C /* UIView+ddframework.m in Sources */,
 				EB9014401E5AB46500C2615C /* UIImage+ddframework.m in Sources */,
@@ -529,9 +625,12 @@
 				EBD192151E56D8B700420B35 /* DDDataManager.m in Sources */,
 				EB90143D1E5AB38B00C2615C /* UIView+ddframework.m in Sources */,
 				EB9014451E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */,
+				EB9014591E5ABAC600C2615C /* NSURLSessionTask+ddframework.m in Sources */,
 				EBD1922C1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
+				EB90145D1E5ABD9B00C2615C /* DDModelRequest.m in Sources */,
 				EB90142F1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
 				EB9014371E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */,
+				EB9014611E5ABDA900C2615C /* DDModelResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +756,7 @@
 		};
 		EBD191EB1E56CC7600420B35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7BDAD7DA2F506EDB2FD725 /* Pods-OCStartup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 924RHBKCES;
@@ -671,6 +771,7 @@
 		};
 		EBD191EC1E56CC7600420B35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085637D74BDA388A13328989 /* Pods-OCStartup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 924RHBKCES;
