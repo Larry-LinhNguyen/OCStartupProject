@@ -63,7 +63,6 @@ NSString *const kNetworkResumeAviliableNotification = @"kNetworkResumeAviliableN
     return _dataProcessQueue;
 }
 
-
 - (void)cancelRequestWithRequestObject:(id)reqObj {
     if ([reqObj isKindOfClass:[DDModelRequest class]]) {
         [(DDModelRequest *)reqObj cancel];
