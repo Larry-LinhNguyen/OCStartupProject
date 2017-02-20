@@ -10,6 +10,14 @@
 #define DDGlobal_h
 
 #import "DDMacros.h"
+
+// categories
+#import "NSAttributedString+ddframework.h"
 #import "NSDictionary+ddframework.h"
+#import "NSString+ddframework.h"
+#import "UIControl+ddframework.h"
+#import "UIDevice+ddframework.h"
+#import "UIImage+ddframework.h"
+#import "UIView+ddframework.h"
 
 #endif /* DDGlobal_h */

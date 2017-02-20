@@ -8,6 +8,6 @@
 
 #import "DDBaseController.h"
 
-@interface DDWebViewController : DDBaseController
+@interface DDWebViewController : DDBaseController<UIWebViewDelegate>
 
 @end

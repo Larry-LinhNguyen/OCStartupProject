@@ -15,6 +15,18 @@
 		EB9014331E5A98BC00C2615C /* DDPageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014311E5A98BC00C2615C /* DDPageMap.m */; };
 		EB9014361E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */; };
 		EB9014371E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */; };
+		EB90143C1E5AB38B00C2615C /* UIView+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90143B1E5AB38B00C2615C /* UIView+ddframework.m */; };
+		EB90143D1E5AB38B00C2615C /* UIView+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90143B1E5AB38B00C2615C /* UIView+ddframework.m */; };
+		EB9014401E5AB46500C2615C /* UIImage+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90143F1E5AB46500C2615C /* UIImage+ddframework.m */; };
+		EB9014411E5AB46500C2615C /* UIImage+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90143F1E5AB46500C2615C /* UIImage+ddframework.m */; };
+		EB9014441E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014431E5AB4A800C2615C /* UIDevice+ddframework.m */; };
+		EB9014451E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014431E5AB4A800C2615C /* UIDevice+ddframework.m */; };
+		EB9014481E5AB67200C2615C /* UIControl+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014471E5AB67200C2615C /* UIControl+ddframework.m */; };
+		EB9014491E5AB67200C2615C /* UIControl+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014471E5AB67200C2615C /* UIControl+ddframework.m */; };
+		EB9014501E5AB7FC00C2615C /* NSString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */; };
+		EB9014511E5AB7FC00C2615C /* NSString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */; };
+		EB9014541E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */; };
+		EB9014551E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */; };
 		EBD191CD1E56CC7600420B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CC1E56CC7600420B35 /* main.m */; };
 		EBD191D01E56CC7600420B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191CF1E56CC7600420B35 /* AppDelegate.m */; };
 		EBD191D31E56CC7600420B35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191D21E56CC7600420B35 /* ViewController.m */; };
@@ -62,6 +74,18 @@
 		EB9014341E5A99E200C2615C /* NSDictionary+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ddframework.h"; sourceTree = "<group>"; };
 		EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ddframework.m"; sourceTree = "<group>"; };
 		EB9014381E5A9C5400C2615C /* DDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMacros.h; sourceTree = "<group>"; };
+		EB90143A1E5AB38B00C2615C /* UIView+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ddframework.h"; sourceTree = "<group>"; };
+		EB90143B1E5AB38B00C2615C /* UIView+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ddframework.m"; sourceTree = "<group>"; };
+		EB90143E1E5AB46500C2615C /* UIImage+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ddframework.h"; sourceTree = "<group>"; };
+		EB90143F1E5AB46500C2615C /* UIImage+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ddframework.m"; sourceTree = "<group>"; };
+		EB9014421E5AB4A800C2615C /* UIDevice+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ddframework.h"; sourceTree = "<group>"; };
+		EB9014431E5AB4A800C2615C /* UIDevice+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ddframework.m"; sourceTree = "<group>"; };
+		EB9014461E5AB67200C2615C /* UIControl+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ddframework.h"; sourceTree = "<group>"; };
+		EB9014471E5AB67200C2615C /* UIControl+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ddframework.m"; sourceTree = "<group>"; };
+		EB90144E1E5AB7FC00C2615C /* NSString+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ddframework.h"; sourceTree = "<group>"; };
+		EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ddframework.m"; sourceTree = "<group>"; };
+		EB9014521E5AB8D800C2615C /* NSAttributedString+ddframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ddframework.h"; sourceTree = "<group>"; };
+		EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ddframework.m"; sourceTree = "<group>"; };
 		EBD191C81E56CC7600420B35 /* OCStartup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCStartup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD191CC1E56CC7600420B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBD191CE1E56CC7600420B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -262,8 +286,20 @@
 		EBD192041E56D60700420B35 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				EB9014521E5AB8D800C2615C /* NSAttributedString+ddframework.h */,
+				EB9014531E5AB8D800C2615C /* NSAttributedString+ddframework.m */,
 				EB9014341E5A99E200C2615C /* NSDictionary+ddframework.h */,
 				EB9014351E5A99E200C2615C /* NSDictionary+ddframework.m */,
+				EB90144E1E5AB7FC00C2615C /* NSString+ddframework.h */,
+				EB90144F1E5AB7FC00C2615C /* NSString+ddframework.m */,
+				EB9014461E5AB67200C2615C /* UIControl+ddframework.h */,
+				EB9014471E5AB67200C2615C /* UIControl+ddframework.m */,
+				EB9014421E5AB4A800C2615C /* UIDevice+ddframework.h */,
+				EB9014431E5AB4A800C2615C /* UIDevice+ddframework.m */,
+				EB90143E1E5AB46500C2615C /* UIImage+ddframework.h */,
+				EB90143F1E5AB46500C2615C /* UIImage+ddframework.m */,
+				EB90143A1E5AB38B00C2615C /* UIView+ddframework.h */,
+				EB90143B1E5AB38B00C2615C /* UIView+ddframework.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -447,11 +483,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9014541E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */,
 				EB90142A1E5A96D900C2615C /* DDPageManager.m in Sources */,
 				EBD192271E56D98200420B35 /* DDBaseController.m in Sources */,
 				EBD1921C1E56D90400420B35 /* DDNetwork.m in Sources */,
+				EB9014441E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */,
 				EBD192101E56D84200420B35 /* DDUtility.m in Sources */,
 				EBD192141E56D8B700420B35 /* DDDataManager.m in Sources */,
+				EB9014501E5AB7FC00C2615C /* NSString+ddframework.m in Sources */,
 				EBD191D31E56CC7600420B35 /* ViewController.m in Sources */,
 				EBD1922F1E56DA1100420B35 /* DDWebViewController.m in Sources */,
 				EBD192181E56D8C600420B35 /* DDBaseModel.m in Sources */,
@@ -460,6 +499,9 @@
 				EB90142E1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
 				EBD191CD1E56CC7600420B35 /* main.m in Sources */,
 				EBD1920C1E56D82800420B35 /* Aspects.m in Sources */,
+				EB9014481E5AB67200C2615C /* UIControl+ddframework.m in Sources */,
+				EB90143C1E5AB38B00C2615C /* UIView+ddframework.m in Sources */,
+				EB9014401E5AB46500C2615C /* UIImage+ddframework.m in Sources */,
 				EB9014361E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */,
 				EBD1922B1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
 				EBD192201E56D94200420B35 /* DDHttpManager.m in Sources */,
@@ -472,15 +514,21 @@
 			files = (
 				EBD191E61E56CC7600420B35 /* OCStartupTests.m in Sources */,
 				EBD192301E56DA1100420B35 /* DDWebViewController.m in Sources */,
+				EB9014411E5AB46500C2615C /* UIImage+ddframework.m in Sources */,
 				EBD1920D1E56D82800420B35 /* Aspects.m in Sources */,
+				EB9014551E5AB8D800C2615C /* NSAttributedString+ddframework.m in Sources */,
+				EB9014491E5AB67200C2615C /* UIControl+ddframework.m in Sources */,
 				EBD1921D1E56D90400420B35 /* DDNetwork.m in Sources */,
 				EBD192211E56D94200420B35 /* DDHttpManager.m in Sources */,
 				EBD192281E56D98200420B35 /* DDBaseController.m in Sources */,
 				EB90142B1E5A96D900C2615C /* DDPageManager.m in Sources */,
 				EB9014331E5A98BC00C2615C /* DDPageMap.m in Sources */,
 				EBD192191E56D8C600420B35 /* DDBaseModel.m in Sources */,
+				EB9014511E5AB7FC00C2615C /* NSString+ddframework.m in Sources */,
 				EBD192111E56D84200420B35 /* DDUtility.m in Sources */,
 				EBD192151E56D8B700420B35 /* DDDataManager.m in Sources */,
+				EB90143D1E5AB38B00C2615C /* UIView+ddframework.m in Sources */,
+				EB9014451E5AB4A800C2615C /* UIDevice+ddframework.m in Sources */,
 				EBD1922C1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
 				EB90142F1E5A98AD00C2615C /* DDPageMetaInfo.m in Sources */,
 				EB9014371E5A99E200C2615C /* NSDictionary+ddframework.m in Sources */,

@@ -10,4 +10,17 @@
 
 @implementation DDNetwork
 
++ (instancetype)sharedInstance {
+    static id _s_instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _s_instance = [self new];
+    });
+    return _s_instance;
+}
+
+- (void)cancelRequestWithRequestObject:(id)reqObj {
+    // todo:
+}
+
 @end

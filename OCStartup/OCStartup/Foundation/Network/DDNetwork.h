@@ -10,4 +10,7 @@
 
 @interface DDNetwork : NSObject
 
++ (instancetype)sharedInstance;
+- (void)cancelRequestWithRequestObject:(id)reqObj;
+
 @end
