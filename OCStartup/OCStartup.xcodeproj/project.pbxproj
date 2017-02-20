@@ -14,6 +14,24 @@
 		EBD191D81E56CC7600420B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD191D71E56CC7600420B35 /* Assets.xcassets */; };
 		EBD191DB1E56CC7600420B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD191D91E56CC7600420B35 /* LaunchScreen.storyboard */; };
 		EBD191E61E56CC7600420B35 /* OCStartupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD191E51E56CC7600420B35 /* OCStartupTests.m */; };
+		EBD1920C1E56D82800420B35 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1920B1E56D82800420B35 /* Aspects.m */; };
+		EBD1920D1E56D82800420B35 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1920B1E56D82800420B35 /* Aspects.m */; };
+		EBD192101E56D84200420B35 /* DDUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1920F1E56D84200420B35 /* DDUtility.m */; };
+		EBD192111E56D84200420B35 /* DDUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1920F1E56D84200420B35 /* DDUtility.m */; };
+		EBD192141E56D8B700420B35 /* DDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192131E56D8B700420B35 /* DDDataManager.m */; };
+		EBD192151E56D8B700420B35 /* DDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192131E56D8B700420B35 /* DDDataManager.m */; };
+		EBD192181E56D8C600420B35 /* DDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192171E56D8C600420B35 /* DDBaseModel.m */; };
+		EBD192191E56D8C600420B35 /* DDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192171E56D8C600420B35 /* DDBaseModel.m */; };
+		EBD1921C1E56D90400420B35 /* DDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1921B1E56D90400420B35 /* DDNetwork.m */; };
+		EBD1921D1E56D90400420B35 /* DDNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1921B1E56D90400420B35 /* DDNetwork.m */; };
+		EBD192201E56D94200420B35 /* DDHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1921F1E56D94200420B35 /* DDHttpManager.m */; };
+		EBD192211E56D94200420B35 /* DDHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1921F1E56D94200420B35 /* DDHttpManager.m */; };
+		EBD192271E56D98200420B35 /* DDBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192261E56D98200420B35 /* DDBaseController.m */; };
+		EBD192281E56D98200420B35 /* DDBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD192261E56D98200420B35 /* DDBaseController.m */; };
+		EBD1922B1E56D9BC00420B35 /* DDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1922A1E56D9BC00420B35 /* DDTableViewCell.m */; };
+		EBD1922C1E56D9BC00420B35 /* DDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1922A1E56D9BC00420B35 /* DDTableViewCell.m */; };
+		EBD1922F1E56DA1100420B35 /* DDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1922E1E56DA1100420B35 /* DDWebViewController.m */; };
+		EBD192301E56DA1100420B35 /* DDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1922E1E56DA1100420B35 /* DDWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,28 @@
 		EBD191E11E56CC7600420B35 /* OCStartupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCStartupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD191E51E56CC7600420B35 /* OCStartupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCStartupTests.m; sourceTree = "<group>"; };
 		EBD191E71E56CC7600420B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD1920A1E56D82800420B35 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		EBD1920B1E56D82800420B35 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		EBD1920E1E56D84200420B35 /* DDUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUtility.h; sourceTree = "<group>"; };
+		EBD1920F1E56D84200420B35 /* DDUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUtility.m; sourceTree = "<group>"; };
+		EBD192121E56D8B700420B35 /* DDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDataManager.h; sourceTree = "<group>"; };
+		EBD192131E56D8B700420B35 /* DDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDataManager.m; sourceTree = "<group>"; };
+		EBD192161E56D8C600420B35 /* DDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBaseModel.h; sourceTree = "<group>"; };
+		EBD192171E56D8C600420B35 /* DDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBaseModel.m; sourceTree = "<group>"; };
+		EBD1921A1E56D90400420B35 /* DDNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetwork.h; sourceTree = "<group>"; };
+		EBD1921B1E56D90400420B35 /* DDNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetwork.m; sourceTree = "<group>"; };
+		EBD1921E1E56D94200420B35 /* DDHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHttpManager.h; sourceTree = "<group>"; };
+		EBD1921F1E56D94200420B35 /* DDHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHttpManager.m; sourceTree = "<group>"; };
+		EBD192251E56D98200420B35 /* DDBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBaseController.h; sourceTree = "<group>"; };
+		EBD192261E56D98200420B35 /* DDBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBaseController.m; sourceTree = "<group>"; };
+		EBD192291E56D9BC00420B35 /* DDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTableViewCell.h; sourceTree = "<group>"; };
+		EBD1922A1E56D9BC00420B35 /* DDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTableViewCell.m; sourceTree = "<group>"; };
+		EBD1922D1E56DA1100420B35 /* DDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWebViewController.h; sourceTree = "<group>"; };
+		EBD1922E1E56DA1100420B35 /* DDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWebViewController.m; sourceTree = "<group>"; };
+		EBD192311E56DBEB00420B35 /* DDGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGlobal.h; sourceTree = "<group>"; };
+		EBD192321E56DCB300420B35 /* OCStartup.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStartup.pch; sourceTree = "<group>"; };
+		EBD192331E56DD7600420B35 /* DDConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDConsts.h; sourceTree = "<group>"; };
+		EBD192341E56DD9000420B35 /* DDDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +121,13 @@
 		EBD191CA1E56CC7600420B35 /* OCStartup */ = {
 			isa = PBXGroup;
 			children = (
-				EBD191F21E56CDB900420B35 /* toCustom */,
-				EBD191F11E56CD7C00420B35 /* resource */,
+				EBD191FD1E56D60700420B35 /* Foundation */,
+				EBD192011E56D60700420B35 /* General */,
+				EBD192021E56D60700420B35 /* Sections */,
+				EBD192031E56D60700420B35 /* Utility */,
+				EBD192081E56D60700420B35 /* Vendor */,
+				EBD191F21E56CDB900420B35 /* to_delete */,
+				EBD191F11E56CD7C00420B35 /* Resource */,
 				EBD191CB1E56CC7600420B35 /* Supporting Files */,
 			);
 			path = OCStartup;
@@ -95,6 +140,7 @@
 				EBD191CE1E56CC7600420B35 /* AppDelegate.h */,
 				EBD191CF1E56CC7600420B35 /* AppDelegate.m */,
 				EBD191CC1E56CC7600420B35 /* main.m */,
+				EBD192321E56DCB300420B35 /* OCStartup.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,23 +154,167 @@
 			path = OCStartupTests;
 			sourceTree = "<group>";
 		};
-		EBD191F11E56CD7C00420B35 /* resource */ = {
+		EBD191F11E56CD7C00420B35 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				EBD191D71E56CC7600420B35 /* Assets.xcassets */,
 				EBD191D41E56CC7600420B35 /* Main.storyboard */,
 				EBD191D91E56CC7600420B35 /* LaunchScreen.storyboard */,
 			);
-			name = resource;
+			name = Resource;
 			sourceTree = "<group>";
 		};
-		EBD191F21E56CDB900420B35 /* toCustom */ = {
+		EBD191F21E56CDB900420B35 /* to_delete */ = {
 			isa = PBXGroup;
 			children = (
 				EBD191D11E56CC7600420B35 /* ViewController.h */,
 				EBD191D21E56CC7600420B35 /* ViewController.m */,
 			);
-			name = toCustom;
+			name = to_delete;
+			sourceTree = "<group>";
+		};
+		EBD191FD1E56D60700420B35 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EBD191FE1E56D60700420B35 /* DataManager */,
+				EBD191FF1E56D60700420B35 /* Model */,
+				EBD192001E56D60700420B35 /* Network */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EBD191FE1E56D60700420B35 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192121E56D8B700420B35 /* DDDataManager.h */,
+				EBD192131E56D8B700420B35 /* DDDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EBD191FF1E56D60700420B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192161E56D8C600420B35 /* DDBaseModel.h */,
+				EBD192171E56D8C600420B35 /* DDBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBD192001E56D60700420B35 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1921A1E56D90400420B35 /* DDNetwork.h */,
+				EBD1921B1E56D90400420B35 /* DDNetwork.m */,
+				EBD1921E1E56D94200420B35 /* DDHttpManager.h */,
+				EBD1921F1E56D94200420B35 /* DDHttpManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EBD192011E56D60700420B35 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192221E56D96A00420B35 /* Controller */,
+				EBD192231E56D96A00420B35 /* CustomUI */,
+				EBD192241E56D96A00420B35 /* View */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		EBD192021E56D60700420B35 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		EBD192031E56D60700420B35 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192041E56D60700420B35 /* Category */,
+				EBD192051E56D60700420B35 /* Helper */,
+				EBD192061E56D60700420B35 /* Macros */,
+				EBD192071E56D60700420B35 /* PageManager */,
+				EBD1920E1E56D84200420B35 /* DDUtility.h */,
+				EBD1920F1E56D84200420B35 /* DDUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EBD192041E56D60700420B35 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EBD192051E56D60700420B35 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EBD192061E56D60700420B35 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192311E56DBEB00420B35 /* DDGlobal.h */,
+				EBD192331E56DD7600420B35 /* DDConsts.h */,
+				EBD192341E56DD9000420B35 /* DDDefines.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		EBD192071E56D60700420B35 /* PageManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageManager;
+			sourceTree = "<group>";
+		};
+		EBD192081E56D60700420B35 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192091E56D82800420B35 /* AOP */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EBD192091E56D82800420B35 /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				EBD1920A1E56D82800420B35 /* Aspects.h */,
+				EBD1920B1E56D82800420B35 /* Aspects.m */,
+			);
+			path = AOP;
+			sourceTree = "<group>";
+		};
+		EBD192221E56D96A00420B35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192251E56D98200420B35 /* DDBaseController.h */,
+				EBD192261E56D98200420B35 /* DDBaseController.m */,
+				EBD1922D1E56DA1100420B35 /* DDWebViewController.h */,
+				EBD1922E1E56DA1100420B35 /* DDWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBD192231E56D96A00420B35 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		EBD192241E56D96A00420B35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBD192291E56D9BC00420B35 /* DDTableViewCell.h */,
+				EBD1922A1E56D9BC00420B35 /* DDTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +361,7 @@
 		EBD191C01E56CC7600420B35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DD;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Yanchen Wang";
 				TargetAttributes = {
@@ -230,9 +421,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD192271E56D98200420B35 /* DDBaseController.m in Sources */,
+				EBD1921C1E56D90400420B35 /* DDNetwork.m in Sources */,
+				EBD192101E56D84200420B35 /* DDUtility.m in Sources */,
+				EBD192141E56D8B700420B35 /* DDDataManager.m in Sources */,
 				EBD191D31E56CC7600420B35 /* ViewController.m in Sources */,
+				EBD1922F1E56DA1100420B35 /* DDWebViewController.m in Sources */,
+				EBD192181E56D8C600420B35 /* DDBaseModel.m in Sources */,
 				EBD191D01E56CC7600420B35 /* AppDelegate.m in Sources */,
 				EBD191CD1E56CC7600420B35 /* main.m in Sources */,
+				EBD1920C1E56D82800420B35 /* Aspects.m in Sources */,
+				EBD1922B1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
+				EBD192201E56D94200420B35 /* DDHttpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +441,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD191E61E56CC7600420B35 /* OCStartupTests.m in Sources */,
+				EBD192301E56DA1100420B35 /* DDWebViewController.m in Sources */,
+				EBD1920D1E56D82800420B35 /* Aspects.m in Sources */,
+				EBD1921D1E56D90400420B35 /* DDNetwork.m in Sources */,
+				EBD192211E56D94200420B35 /* DDHttpManager.m in Sources */,
+				EBD192281E56D98200420B35 /* DDBaseController.m in Sources */,
+				EBD192191E56D8C600420B35 /* DDBaseModel.m in Sources */,
+				EBD192111E56D84200420B35 /* DDUtility.m in Sources */,
+				EBD192151E56D8B700420B35 /* DDDataManager.m in Sources */,
+				EBD1922C1E56D9BC00420B35 /* DDTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +578,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 924RHBKCES;
+				GCC_PREFIX_HEADER = OCStartup/OCStartup.pch;
 				INFOPLIST_FILE = OCStartup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -382,6 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 924RHBKCES;
+				GCC_PREFIX_HEADER = OCStartup/OCStartup.pch;
 				INFOPLIST_FILE = OCStartup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
